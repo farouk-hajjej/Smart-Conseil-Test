@@ -6,13 +6,17 @@ import { AccueilComponent } from './accueil/accueil.component';
 import {RouterModule} from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { WHOAREWE1Component } from './whoarewe1/whoarewe1.component';
+import { WHOAREWE2Component } from './whoarewe2/whoarewe2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AccueilComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    WHOAREWE1Component,
+    WHOAREWE2Component
   ],
     imports: [
         BrowserModule,
